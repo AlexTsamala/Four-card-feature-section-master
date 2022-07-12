@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "poppins";
+    background: #F2F2F2;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    margin:85px 40px 76px 40px;
+}
+
+.first-header{
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 36px;
+    color: #4D4F62;
+    text-align: center;
+}
+
+.second-header{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #4D4F62;
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+.headers-text{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: #4D4F62;
+}
+
+.technology-boxes{
+    background: #FFFFFF;
+    margin:0 32px 25px 32px;
+    border-radius:8px;
+    Width:311px;
+    Height:222px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    padding: 29px;
+}
+
+.technology-headers{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #4D4F62;
+ 
+}
+
+.text{
+    color: #4D4F62;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-top:1px;
+    margin-bottom:33px;
+}
+
+.supervisor{
+    border-top: 3.55px solid #44D3D2;
+}
+
+.builder{
+    border-top: 3.55px solid #EA5454;;
+}
+
+.karma{
+    border-top: 3.55px solid #FCAE4A;;
+}
+
+.calculator{
+    border-top: 3.55px solid #549EF2;
+    margin-bottom:78px;
+}
