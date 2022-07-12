@@ -7,7 +7,6 @@
 
 body{
     font-family: "poppins";
-    background: #F2F2F2;
 }
 
 .main-container{
@@ -43,9 +42,10 @@ header{
     line-height: 25px;
     text-align: center;
     color: #4D4F62;
+    max-width: 322px;
 }
 
-.technology-boxes{
+.technology-box{
     background: #FFFFFF;
     margin:0 32px 25px 32px;
     border-radius:8px;
@@ -72,6 +72,10 @@ header{
     margin-bottom:33px;
 }
 
+img{
+    transform: translateX(190px);
+}
+
 .supervisor{
     border-top: 3.55px solid #44D3D2;
 }
@@ -87,4 +91,33 @@ header{
 .calculator{
     border-top: 3.55px solid #549EF2;
     margin-bottom:78px;
+}
+
+@media (min-width: 1440px){
+.first-header{
+    font-size: 36px;
+    font-weight: 275;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+}
+
+.second-header{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.headers-text{
+    max-width: 549px;
+}
+
+.technology-boxes{
+    display: flex;
+    align-items: center;
+}
+
+.middle-pictures-div{
+    display: flex;
+    flex-direction: column;
+}
 }
